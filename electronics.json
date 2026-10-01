@@ -1,0 +1,562 @@
+{
+  "Apple": [
+    {
+      "product_id": "AP-PH-001",
+      "department": "electronics",
+      "name": "iPhone 15 Pro",
+      "category": "smartphone",
+      "price": 999.00,
+      "specs": {"storage": "256GB", "color": "Natural Titanium", "chip": "A17 Pro"},
+      "raw_description": "Titanium design. Super Retina XDR display. 48MP Main camera.",
+      "compatibility_tags": ["mag-safe", "usb-c"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AP-TB-001",
+      "department": "electronics",
+      "name": "iPad Air (5th Gen)",
+      "category": "tablet",
+      "price": 599.00,
+      "specs": {"storage": "64GB", "color": "Space Gray", "chip": "M1"},
+      "raw_description": "Lightweight tablet with M1 chip. 10.9-inch Liquid Retina display.",
+      "compatibility_tags": ["apple-pencil-2", "magic-keyboard"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "AP-WA-001",
+      "department": "electronics",
+      "name": "Apple Watch Series 9",
+      "category": "wearable",
+      "price": 399.00,
+      "specs": {"size": "45mm", "color": "Midnight", "connectivity": "GPS"},
+      "raw_description": "Advanced health features, double tap gesture, brighter display.",
+      "compatibility_tags": ["watch-band-45mm"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AP-AU-001",
+      "department": "electronics",
+      "name": "AirPods Pro (2nd Gen)",
+      "category": "audio",
+      "price": 249.00,
+      "specs": {"type": "in-ear", "color": "White", "anc": true},
+      "raw_description": "Rich audio, active noise cancellation, adaptive transparency.",
+      "compatibility_tags": ["mag-safe", "usb-c"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "AP-AC-001",
+      "department": "electronics",
+      "name": "20W USB-C Power Adapter",
+      "category": "accessories",
+      "price": 19.00,
+      "specs": {"wattage": "20W", "port": "usb-c"},
+      "raw_description": "Fast, efficient charging at home, in the office, or on the go.",
+      "compatibility_tags": ["iphone", "ipad"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AP-AC-002",
+      "department": "electronics",
+      "name": "FineWoven Case with MagSafe",
+      "category": "accessories",
+      "price": 59.00,
+      "specs": {"material": "microtwill", "color": "Pacific Blue"},
+      "raw_description": "Durable microtwill material, magnetic alignment for iPhone 15 Pro.",
+      "compatibility_tags": ["iphone-15-pro", "mag-safe"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "AP-LP-001",
+      "department": "electronics",
+      "name": "MacBook Pro 14-inch",
+      "category": "laptop",
+      "price": 1599.00,
+      "specs": {"ram": "16GB", "storage": "512GB SSD", "chip": "M3 Pro"},
+      "raw_description": "Powerful pro laptop with Liquid Retina XDR display.",
+      "compatibility_tags": ["usb-c", "thunderbolt-4"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AP-PC-001",
+      "department": "electronics",
+      "name": "Magic Mouse",
+      "category": "peripherals",
+      "price": 79.00,
+      "specs": {"connectivity": "Bluetooth", "color": "White"},
+      "raw_description": "Wireless and rechargeable, with an optimized foot design.",
+      "compatibility_tags": ["mac", "ipad"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "AP-AC-003",
+      "department": "electronics",
+      "name": "AirTag",
+      "category": "accessories",
+      "price": 29.00,
+      "specs": {"connectivity": "Bluetooth", "battery": "CR2032"},
+      "raw_description": "Keep track of your keys, wallet, luggage, and more.",
+      "compatibility_tags": ["iphone"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AP-TV-001",
+      "department": "electronics",
+      "name": "Apple TV 4K",
+      "category": "entertainment",
+      "price": 129.00,
+      "specs": {"storage": "64GB", "resolution": "4K HDR", "chip": "A15 Bionic"},
+      "raw_description": "Cinematic experience with Dolby Vision and Dolby Atmos.",
+      "compatibility_tags": ["hdmi-2.1"],
+      "quality_flag": "complete"
+    }
+  ],
+  "Samsung": [
+    {
+      "product_id": "SM-PH-001",
+      "department": "electronics",
+      "name": "Galaxy S24 Ultra",
+      "category": "smartphone",
+      "price": 1299.00,
+      "specs": {"storage": "512GB", "color": "Titanium Black", "stylus": true},
+      "raw_description": "AI-powered smartphone with built-in S Pen and 200MP camera.",
+      "compatibility_tags": ["qi-wireless", "usb-c"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SM-TB-001",
+      "department": "electronics",
+      "name": "Galaxy Tab S9",
+      "category": "tablet",
+      "price": 799.00,
+      "specs": {"storage": "128GB", "color": "Graphite", "screen": "11-inch AMOLED"},
+      "raw_description": "Premium Android tablet with IP68 water resistance.",
+      "compatibility_tags": ["s-pen"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SM-WA-001",
+      "department": "electronics",
+      "name": "Galaxy Watch 6 Classic",
+      "category": "wearable",
+      "price": 349.00,
+      "specs": {"size": "47mm", "color": "Silver", "bezel": "rotating"},
+      "raw_description": "Classic design with rotating bezel and advanced fitness tracking.",
+      "compatibility_tags": ["galaxy-smartphone"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SM-AU-001",
+      "department": "electronics",
+      "name": "Galaxy Buds 2 Pro",
+      "category": "audio",
+      "price": 229.00,
+      "specs": {"type": "in-ear", "color": "Bora Purple", "anc": true},
+      "raw_description": "Hi-Fi audio, intelligent ANC, and ergonomic design.",
+      "compatibility_tags": ["bluetooth"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SM-AC-001",
+      "department": "electronics",
+      "name": "45W Super Fast Wall Charger",
+      "category": "accessories",
+      "price": 49.00,
+      "specs": {"wattage": "45W", "port": "usb-c"},
+      "raw_description": "Get back to 100% quickly with 45W Super Fast Charging.",
+      "compatibility_tags": ["galaxy-s24", "galaxy-tab"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SM-AC-002",
+      "department": "electronics",
+      "name": "Smart Clear View Cover",
+      "category": "accessories",
+      "price": 49.00,
+      "specs": {"material": "polycarbonate", "color": "Black"},
+      "raw_description": "Protect your phone while keeping notifications in view.",
+      "compatibility_tags": ["galaxy-s24-ultra"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SM-LP-001",
+      "department": "electronics",
+      "name": "Galaxy Book4 Pro",
+      "category": "laptop",
+      "price": 1449.00,
+      "specs": {"ram": "16GB", "storage": "1TB SSD", "screen": "14-inch AMOLED"},
+      "raw_description": "Ultra-thin touchscreen laptop with Intel Core Ultra processor.",
+      "compatibility_tags": ["windows", "usb-c"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SM-AC-003",
+      "department": "electronics",
+      "name": "SmartTag2",
+      "category": "accessories",
+      "price": 29.99,
+      "specs": {"connectivity": "UWB", "battery": "CR2032"},
+      "raw_description": "Durable Bluetooth tracker with AR finding capabilities.",
+      "compatibility_tags": ["galaxy-smartphone"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SM-MO-001",
+      "department": "electronics",
+      "name": "32-inch Odyssey G7",
+      "category": "monitor",
+      "price": 699.00,
+      "specs": {"resolution": "1440p", "refresh_rate": "240Hz", "curve": "1000R"},
+      "raw_description": "Curved gaming monitor with Quantum Dot technology.",
+      "compatibility_tags": ["displayport", "hdmi"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SM-ST-001",
+      "department": "electronics",
+      "name": "T7 Shield Portable SSD",
+      "category": "storage",
+      "price": 159.00,
+      "specs": {"capacity": "2TB", "interface": "USB 3.2 Gen 2", "rugged": true},
+      "raw_description": "Rugged, fast, and compact external solid state drive.",
+      "compatibility_tags": ["mac", "windows", "android"],
+      "quality_flag": "complete"
+    }
+  ],
+  "Sony": [
+    {
+      "product_id": "SN-AU-001",
+      "department": "electronics",
+      "name": "WH-1000XM5 Wireless Headphones",
+      "category": "audio",
+      "price": 398.00,
+      "specs": {"type": "over-ear", "color": "Silver", "battery": "30h"},
+      "raw_description": "Industry-leading noise canceling overhead headphones.",
+      "compatibility_tags": ["bluetooth", "3.5mm"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SN-TV-001",
+      "department": "electronics",
+      "name": "Bravia XR A80L OLED",
+      "category": "television",
+      "price": 1498.00,
+      "specs": {"size": "55-inch", "resolution": "4K", "panel": "OLED"},
+      "raw_description": "Stunning OLED picture with cognitive processor XR.",
+      "compatibility_tags": ["hdmi-2.1", "vesa-mount"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SN-CM-001",
+      "department": "electronics",
+      "name": "Alpha a7 IV Mirrorless Camera",
+      "category": "photography",
+      "price": 2498.00,
+      "specs": {"sensor": "Full-Frame", "megapixels": 33, "mount": "E-mount"},
+      "raw_description": "Hybrid mirrorless camera for photo and video professionals.",
+      "compatibility_tags": ["e-mount-lenses", "sd-card"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SN-CM-002",
+      "department": "electronics",
+      "name": "FE 24-70mm f/2.8 GM II Lens",
+      "category": "photography",
+      "price": 2298.00,
+      "specs": {"focal_length": "24-70mm", "aperture": "f/2.8", "mount": "E-mount"},
+      "raw_description": "Premium G Master standard zoom lens, lightweight design.",
+      "compatibility_tags": ["sony-alpha"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SN-GM-001",
+      "department": "electronics",
+      "name": "DualSense Wireless Controller",
+      "category": "gaming",
+      "price": 69.00,
+      "specs": {"color": "Cosmic Red", "connectivity": "wireless"},
+      "raw_description": "Haptic feedback and adaptive triggers for immersive gaming.",
+      "compatibility_tags": ["ps5", "pc"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SN-AU-002",
+      "department": "electronics",
+      "name": "HT-A3000 Dolby Atmos Soundbar",
+      "category": "audio",
+      "price": 498.00,
+      "specs": {"channels": "3.1", "color": "Black", "connectivity": "HDMI eARC"},
+      "raw_description": "Immersive surround sound with built-in dual subwoofers.",
+      "compatibility_tags": ["bravia-tv"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SN-GM-002",
+      "department": "electronics",
+      "name": "PlayStation 5 Console",
+      "category": "gaming",
+      "price": 499.00,
+      "specs": {"storage": "1TB SSD", "drive": "Disc", "resolution": "4K"},
+      "raw_description": "Next-gen gaming console with lightning-fast load times.",
+      "compatibility_tags": ["hdmi-2.1", "dualsense"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SN-AU-003",
+      "department": "electronics",
+      "name": "WF-1000XM5 Earbuds",
+      "category": "audio",
+      "price": 298.00,
+      "specs": {"type": "in-ear", "color": "Black", "anc": true},
+      "raw_description": "Premium truly wireless earbuds with high-resolution audio.",
+      "compatibility_tags": ["bluetooth"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "SN-MO-001",
+      "department": "electronics",
+      "name": "INZONE M9 Gaming Monitor",
+      "category": "monitor",
+      "price": 899.00,
+      "specs": {"size": "27-inch", "resolution": "4K", "refresh_rate": "144Hz"},
+      "raw_description": "Full Array LED gaming monitor perfect for PS5 and PC.",
+      "compatibility_tags": ["ps5", "pc", "hdmi-2.1"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "SN-AU-004",
+      "department": "electronics",
+      "name": "SRS-XB100 Portable Speaker",
+      "category": "audio",
+      "price": 59.00,
+      "specs": {"battery": "16h", "waterproof": "IP67", "color": "Light Blue"},
+      "raw_description": "Compact, durable Bluetooth speaker with extra bass.",
+      "compatibility_tags": ["bluetooth"],
+      "quality_flag": "needs_enrichment"
+    }
+  ],
+  "Logitech": [
+    {
+      "product_id": "LG-PC-001",
+      "department": "electronics",
+      "name": "MX Master 3S Wireless Mouse",
+      "category": "peripherals",
+      "price": 99.00,
+      "specs": {"type": "ergonomic", "color": "Graphite", "dpi": 8000},
+      "raw_description": "Quiet clicks, ultra-fast scrolling, ergonomic design for creators.",
+      "compatibility_tags": ["mac", "windows", "bluetooth"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "LG-PC-002",
+      "department": "electronics",
+      "name": "MX Keys Mini Keyboard",
+      "category": "peripherals",
+      "price": 109.00,
+      "specs": {"layout": "compact", "color": "Pale Gray", "backlight": true},
+      "raw_description": "Minimalist wireless illuminated keyboard.",
+      "compatibility_tags": ["mac", "windows"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "LG-PC-003",
+      "department": "electronics",
+      "name": "Brio 4K Webcam",
+      "category": "peripherals",
+      "price": 199.00,
+      "specs": {"resolution": "4K", "fps": 60, "fov": "adjustable"},
+      "raw_description": "Ultra HD webcam for video conferencing and streaming.",
+      "compatibility_tags": ["usb-c", "windows-hello"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "LG-AU-001",
+      "department": "electronics",
+      "name": "Zone Vibe 100 Headset",
+      "category": "audio",
+      "price": 99.00,
+      "specs": {"type": "over-ear", "color": "Rose", "mic": "noise-canceling"},
+      "raw_description": "Lightweight wireless headset for work and play.",
+      "compatibility_tags": ["bluetooth"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "LG-GM-001",
+      "department": "electronics",
+      "name": "G Pro X Superlight",
+      "category": "gaming",
+      "price": 159.00,
+      "specs": {"weight": "63g", "color": "White", "sensor": "HERO 25K"},
+      "raw_description": "Ultra-lightweight wireless gaming mouse designed for esports.",
+      "compatibility_tags": ["pc", "mac"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "LG-PC-004",
+      "department": "electronics",
+      "name": "Desk Mat Studio Series",
+      "category": "accessories",
+      "price": 19.99,
+      "specs": {"size": "XL", "material": "cloth", "spill_resistant": true},
+      "raw_description": "Beautiful and comfortable desk mat with a spill-resistant surface.",
+      "compatibility_tags": ["desktop"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "LG-GM-002",
+      "department": "electronics",
+      "name": "G915 TKL Mechanical Keyboard",
+      "category": "gaming",
+      "price": 229.00,
+      "specs": {"switches": "Tactile", "layout": "Tenkeyless", "connectivity": "Lightspeed"},
+      "raw_description": "Low-profile wireless mechanical gaming keyboard with RGB.",
+      "compatibility_tags": ["pc"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "LG-AU-002",
+      "department": "electronics",
+      "name": "Blue Yeti USB Microphone",
+      "category": "audio",
+      "price": 129.00,
+      "specs": {"polar_patterns": "4", "connection": "USB", "color": "Blackout"},
+      "raw_description": "Professional multi-pattern USB mic for recording and streaming.",
+      "compatibility_tags": ["mac", "windows"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "LG-AC-001",
+      "department": "electronics",
+      "name": "Litra Glow Streaming Light",
+      "category": "accessories",
+      "price": 59.99,
+      "specs": {"temp_range": "2700K-6500K", "mount": "monitor", "connection": "USB-C"},
+      "raw_description": "Premium LED streaming light with TrueSoft technology.",
+      "compatibility_tags": ["mac", "windows"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "LG-PC-005",
+      "department": "electronics",
+      "name": "ERGO M575 Wireless Trackball",
+      "category": "peripherals",
+      "price": 49.99,
+      "specs": {"type": "trackball", "color": "Graphite", "battery": "24 months"},
+      "raw_description": "Ergonomic trackball mouse requiring minimal arm movement.",
+      "compatibility_tags": ["mac", "windows", "bluetooth"],
+      "quality_flag": "complete"
+    }
+  ],
+  "Anker": [
+    {
+      "product_id": "AK-PW-001",
+      "department": "electronics",
+      "name": "737 Power Bank (PowerCore 24K)",
+      "category": "power",
+      "price": 149.00,
+      "specs": {"capacity": "24000mAh", "output": "140W", "ports": "2x USB-C, 1x USB-A"},
+      "raw_description": "Ultra-powerful portable charger with smart digital display.",
+      "compatibility_tags": ["laptops", "smartphones"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "AK-PW-002",
+      "department": "electronics",
+      "name": "Nano II 65W GaN Charger",
+      "category": "power",
+      "price": 49.00,
+      "specs": {"output": "65W", "technology": "GaN II", "ports": "1x USB-C"},
+      "raw_description": "Compact fast charger for phones, tablets, and notebooks.",
+      "compatibility_tags": ["usb-c-devices"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AK-CB-001",
+      "department": "electronics",
+      "name": "PowerLine III USB-C to USB-C Cable",
+      "category": "accessories",
+      "price": 15.00,
+      "specs": {"length": "6ft", "material": "braided", "power_delivery": "100W"},
+      "raw_description": "Durable fast charging cable for high-power devices.",
+      "compatibility_tags": ["usb-c"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "AK-HB-001",
+      "department": "electronics",
+      "name": "555 USB-C Hub (8-in-1)",
+      "category": "peripherals",
+      "price": 74.00,
+      "specs": {"ports": ["HDMI", "SD", "USB-A", "USB-C", "Ethernet"]},
+      "raw_description": "Expand your laptop's connectivity with this versatile hub.",
+      "compatibility_tags": ["macbook", "windows-laptop"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AK-AU-001",
+      "department": "electronics",
+      "name": "Soundcore Motion+ Bluetooth Speaker",
+      "category": "audio",
+      "price": 99.00,
+      "specs": {"audio": "Hi-Res", "waterproof": "IPX7", "battery": "12h"},
+      "raw_description": "Portable speaker with deep bass and high-resolution audio.",
+      "compatibility_tags": ["bluetooth"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "AK-AU-002",
+      "department": "electronics",
+      "name": "Soundcore Space A40",
+      "category": "audio",
+      "price": 79.00,
+      "specs": {"type": "in-ear", "anc": "adaptive", "battery": "50h with case"},
+      "raw_description": "Noise cancelling wireless earbuds with comfortable fit.",
+      "compatibility_tags": ["bluetooth"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AK-PW-003",
+      "department": "electronics",
+      "name": "622 Magnetic Battery (MagGo)",
+      "category": "power",
+      "price": 49.99,
+      "specs": {"capacity": "5000mAh", "feature": "Foldable Kickstand", "color": "Interstellar Gray"},
+      "raw_description": "Snap-and-go magnetic wireless portable charger.",
+      "compatibility_tags": ["iphone-magsafe"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AK-PC-001",
+      "department": "electronics",
+      "name": "AnkerWork B600 Video Bar",
+      "category": "peripherals",
+      "price": 219.00,
+      "specs": {"resolution": "2K", "audio": "4-Mic Array", "lighting": "Built-in Edge Light"},
+      "raw_description": "All-in-one video bar for professional home office setups.",
+      "compatibility_tags": ["mac", "windows", "usb-c"],
+      "quality_flag": "complete"
+    },
+    {
+      "product_id": "AK-AC-001",
+      "department": "electronics",
+      "name": "eufy Security SmartTrack Link",
+      "category": "accessories",
+      "price": 19.99,
+      "specs": {"compatibility": "Apple Find My", "battery": "CR2032", "alarm": "Left Behind"},
+      "raw_description": "Key tracker that works seamlessly with Apple's Find My app.",
+      "compatibility_tags": ["ios"],
+      "quality_flag": "needs_enrichment"
+    },
+    {
+      "product_id": "AK-PW-004",
+      "department": "electronics",
+      "name": "521 Portable Power Station",
+      "category": "power",
+      "price": 219.00,
+      "specs": {"capacity": "256Wh", "battery_type": "LiFePO4", "output": "200W"},
+      "raw_description": "Long-lasting portable power station for camping and emergencies.",
+      "compatibility_tags": ["ac-plug", "usb-c", "usb-a"],
+      "quality_flag": "complete"
+    }
+  ]
+}
